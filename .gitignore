@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+
+# Secrets: keep keys in .env.local (see .env.example)
+.env
+.env*.local
+
+# Source documents are copyrighted, so they're never committed
+/data/lky-sources/
+
+# Python bytecode from the scripts
+__pycache__/
+
+# The earlier Replit prototype, kept locally only and not part of this app
+/lky-archives/
+
+.DS_Store
