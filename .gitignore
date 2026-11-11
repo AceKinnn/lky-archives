@@ -16,7 +16,4 @@ next-env.d.ts
 # Python bytecode from the scripts
 __pycache__/
 
-# The earlier Replit prototype, kept locally only and not part of this app
-/lky-archives/
-
 .DS_Store

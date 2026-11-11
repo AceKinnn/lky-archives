@@ -1,4 +1,4 @@
-// Copied unchanged from the original Flowise chatflow (flowise/lky-chatflow.json).
+// Copied unchanged from the original Flowise chatflow (data/lky-chatflow.json).
 
 /** Turns a follow-up into a standalone question, so search has context. */
 export const REPHRASE_PROMPT =

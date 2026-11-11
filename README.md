@@ -15,7 +15,7 @@ It's retrieval-augmented generation (RAG), built with Next.js:
 3. **Answer in character** with Groq (`openai/gpt-oss-120b` by default), using the persona prompt in `src/lib/lkyPrompts.ts`. The prompt only answers from the retrieved passages, so off-topic questions get "I'm not knowledgeable on that topic".
 4. **Follow-up questions** are first rewritten into standalone ones, using the last few messages the page sends.
 
-The first version was built in [Flowise](https://flowiseai.com). Flowise Cloud has since shut down, so this version does the same steps in its own API route. The original chatflow export is in `flowise/lky-chatflow.json`, and the prompts are copied from it unchanged.
+The first version was built in [Flowise](https://flowiseai.com). Flowise Cloud has since shut down, so this version does the same steps in its own API route. The original chatflow export is in `data/lky-chatflow.json`, and the prompts are copied from it unchanged.
 
 ## Protection
 
